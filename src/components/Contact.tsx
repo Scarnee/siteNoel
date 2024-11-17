@@ -19,7 +19,7 @@ export default function Contact() {
         <div id="contact" className="flex flex-col items-center gap-6 mb-10 p-6 text-white">
             {/* En-tête */}
             <h1 className="text-4xl font-bold text-center">🎅 Vous voulez nous envoyer un message ? 🎄</h1>
-            <h2 className="text-2xl font-semibold text-center">C'est par ici ! ✨</h2>
+            <h2 className="text-2xl font-semibold text-center">C&rsquo;est par ici ! ✨</h2>
 
             {/* Formulaire */}
             <form className="flex flex-col gap-4 w-full max-w-lg bg-gradient-to-b from-red-700 via-red-500 to-red-400 p-6 rounded-lg shadow-lg border border-red-800" onSubmit={handleSubmit(onSubmit)}>

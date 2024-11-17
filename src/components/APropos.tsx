@@ -21,13 +21,13 @@ export default function APropos() {
                         <span className="font-bold text-red-700">Des milliers de LEDs et lumières</span> scintillant pour émerveiller petits et grands.
                     </li>
                     <li>
-                        <span className="font-bold text-red-700">Des centaines d'heures de travail</span>, investies avec amour et dévouement.
+                        <span className="font-bold text-red-700">Des centaines d&rsquo;heures de travail</span>, investies avec amour et dévouement.
                     </li>
                     <li>
                         <span className="font-bold text-red-700">Une passion sans limites</span>, qui unit toute la famille autour de ce projet unique.
                     </li>
                 </ul>
-                <p className="text-lg">Venez découvrir notre univers enchanté et laissez-vous emporter par l'esprit de Noël ! ✨</p>
+                <p className="text-lg">Venez découvrir notre univers enchanté et laissez-vous emporter par l&rsquo;esprit de Noël ! ✨</p>
             </div>
         </div>
     );
