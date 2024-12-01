@@ -1,8 +1,9 @@
+import Header from "@/components/Header";
+import { Analytics } from "@vercel/analytics/react";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Providers from "./providers";
-import Header from "@/components/Header";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -21,6 +22,7 @@ export default function RootLayout({
                 <Providers>
                     <Header />
                     {children}
+                    <Analytics />
                 </Providers>
             </body>
         </html>
