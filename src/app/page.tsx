@@ -17,16 +17,44 @@ export default async function Home() {
                 <Map />
             </div>
             <Contact />
-            <h1 className="text-center text-3xl sm:text-4xl font-bold mb-4">
-                <span className="text-red-600">Nous soutenir</span>
-            </h1>
-
-            <a
-                href="https://www.leetchi.com/fr/c/les-illumines-de-la-moutilliere-3203563"
-                target="_blank"
-                className="flex justify-center items-center mb-8 text-lg sm:text-xl font-semibold text-white bg-red-600 hover:bg-red-700 px-6 py-3 rounded-lg shadow-lg transform transition-transform hover:scale-105 mx-auto">
-                Cagnotte Leetchi
-            </a>
+            <div className="snowflakes" aria-hidden="true">
+                <div className="snowflake">
+                    <div className="inner">❅</div>
+                </div>
+                <div className="snowflake">
+                    <div className="inner">❅</div>
+                </div>
+                <div className="snowflake">
+                    <div className="inner">❅</div>
+                </div>
+                <div className="snowflake">
+                    <div className="inner">❅</div>
+                </div>
+                <div className="snowflake">
+                    <div className="inner">❅</div>
+                </div>
+                <div className="snowflake">
+                    <div className="inner">❅</div>
+                </div>
+                <div className="snowflake">
+                    <div className="inner">❅</div>
+                </div>
+                <div className="snowflake">
+                    <div className="inner">❅</div>
+                </div>
+                <div className="snowflake">
+                    <div className="inner">❅</div>
+                </div>
+                <div className="snowflake">
+                    <div className="inner">❅</div>
+                </div>
+                <div className="snowflake">
+                    <div className="inner">❅</div>
+                </div>
+                <div className="snowflake">
+                    <div className="inner">❅</div>
+                </div>
+            </div>
         </div>
     );
 }
